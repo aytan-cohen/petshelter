@@ -1,0 +1,99 @@
+body {
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+    background-color: lightsteelblue;
+}
+
+
+.jumbotron {
+    margin-top: 10px;
+    height: 100px;
+    background-color: #999;
+    border-radius: 25px 25px 0 0;
+    box-shadow: 10px 13px 10px #2F4F4F;
+}
+
+.jumbotron h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 100px;
+    text-align: center;
+}
+
+.nav {
+    background-color: forestgreen;
+    border-radius: 0 0 25px 25px;
+    line-height: 45px;
+    box-shadow: 10px 9px 10px #2F4F4F;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 75px;
+}
+
+a:hover {
+    filter: brightness(50%);
+}
+
+.pets {
+    box-sizing: border-box;
+    justify-content: space-between;
+    /* display: flex; */
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #999;
+    box-shadow: 10px 10px 4px #2F4F4F;
+    border-radius: 25px 25px;
+    background-color: forestgreen;
+    width: 100%;
+}
+
+
+.newpets {
+    box-sizing: border-box;
+    width: auto;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #999;
+    box-shadow: 10px 10px 4px #2F4F4F;
+    border-radius: 25px 25px;
+    background-color: grey;
+}
+.container {
+    margin: 30px 0;
+    color: white;
+    font-size: 18px;
+    width: 1000px;
+    border-radius: 25px 25px;
+}
+
+.form-group {
+    display: flex;
+    margin: 5px;
+    flex-wrap: wrap;
+}
+
+.form-group label {
+    flex: 1;
+}
+
+.form-group input, .form-group select {
+    flex: 5;
+}
+
+.form-group p {
+    flex-basis: 100%;
+    background-color: maroon;
+    color: #fff;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.single {
+    padding: 10px;
+}
